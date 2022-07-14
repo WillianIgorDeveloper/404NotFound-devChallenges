@@ -105,14 +105,14 @@ footer p {
         gap: 6.25rem;
     }
     main img {
-        max-width: 50%;
+        min-width: 30rem;
         margin: 0;
     }
     main .content-containet h2 {
-        font-size: 4rem;
+        font-size: 3.75rem;
     }
     main .content-containet p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         max-width: 75%;
     }
 }
