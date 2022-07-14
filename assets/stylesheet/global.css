@@ -36,7 +36,7 @@ body {
 }
 
 /*========== Header ==========*/
-header p {
+header h1 {
     font-family: 'Inconsolata', monospace;
     font-size: 1.5rem;
     color: #333333;
@@ -56,7 +56,7 @@ main img {
 main .content-containet {
     font-family: 'Space Mono', monospace;
 }
-main .content-containet h1 {
+main .content-containet h2 {
     font-size: 3rem;
     font-weight: 700;
     color: #333333;
@@ -75,6 +75,13 @@ main .content-containet button {
     color: #FFF;
     padding: 1.5rem 2.5rem;
     text-transform: uppercase;
+}
+main .content-containet button:hover {
+    transition: .5s;
+    color: #333333;
+    box-shadow: 0.188rem 0.188rem 0.188rem #333333;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
 }
 
 /*========== Footer ==========*/
@@ -101,7 +108,7 @@ footer p {
         max-width: 50%;
         margin: 0;
     }
-    main .content-containet h1 {
+    main .content-containet h2 {
         font-size: 4rem;
     }
     main .content-containet p {
