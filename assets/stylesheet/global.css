@@ -31,9 +31,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    max-width: 75rem;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+
 
 /*========== Header ==========*/
 header h1 {
@@ -41,6 +43,7 @@ header h1 {
     font-size: 1.5rem;
     color: #333333;
 }
+
 
 /*========== Main ==========*/
 main {
@@ -53,21 +56,21 @@ main img {
     max-width: 95%;
     margin: 4rem auto;
 }
-main .content-containet {
+main div {
     font-family: 'Space Mono', monospace;
 }
-main .content-containet h2 {
+main div h2 {
     font-size: 3rem;
     font-weight: 700;
     color: #333333;
 }
-main .content-containet p {
+main div p {
     font-size: 1.125rem;
     font-weight: 400;
     margin: 2rem 0;
-    columns: #4F4F4F;
+    color: #4F4F4F;
 }
-main .content-containet button {
+main div button {
     font-weight: 700;
     margin: 2rem 0;
     border: none;
@@ -76,13 +79,12 @@ main .content-containet button {
     padding: 1.5rem 2.5rem;
     text-transform: uppercase;
 }
-main .content-containet button:hover {
-    transition: .5s;
-    color: #333333;
-    box-shadow: 0.188rem 0.188rem 0.188rem #333333;
-    background-color: rgb(245, 245, 245);
+main div button:hover {
+    transition: .3s;
     cursor: pointer;
+    transform: scale(1.1, 1.1);
 }
+
 
 /*========== Footer ==========*/
 footer p {
@@ -94,11 +96,11 @@ footer p {
 }
 
 
+
 /*==================== 
     Screens bigger than 768px
 ====================*/
 @media (min-width: 768px) {
-    /*========== Main */
     main {
         flex-direction: row;
         align-items: center;
@@ -108,10 +110,10 @@ footer p {
         min-width: 30rem;
         margin: 0;
     }
-    main .content-containet h2 {
+    main div h2 {
         font-size: 3.75rem;
     }
-    main .content-containet p {
+    main div p {
         font-size: 1.25rem;
         max-width: 75%;
     }
